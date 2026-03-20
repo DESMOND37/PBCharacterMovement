@@ -26,8 +26,6 @@ If you have a Blueprint project, you must upgrade to a C++ project, or else the 
 
 If you are using a different version of Unreal Engine, you will need to recompile the plugin. Versions prior to `4.27.2` may require additional code changes. If you are working with UE `5.5` or later, use the [original plugin by the ProjectBorealis team](https://github.com/ProjectBorealis/PBCharacterMovement). This fork was created specifically for the older, but time-tested, version of the UE 4.27.2 engine.
 
-Translated with DeepL.com (free version)
-
 # Instructions
 
 1. [Download the PBCharacterMovement plugin](https://github.com/ProjectBorealis/PBCharacterMovement/archive/main.zip) and paste it into your project's `Plugins/` folder.
