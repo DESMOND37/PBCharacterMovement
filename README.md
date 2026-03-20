@@ -20,21 +20,24 @@ More info in this blog post: https://www.projectborealis.com/movement.
 
 ## Binaries
 
-Binaries are compiled for `5.5`, and will work on C++ projects.
+Binaries are compiled for `4.27.2`, and will work on C++ projects.
 
 If you have a Blueprint project, you must upgrade to a C++ project, or else the game will fail to package.
 
-If you are using a different version of Unreal Engine, you will need to recompile the plugin. Versions prior to `5.5` may require additional code changes. We are happy to accept PRs to improve the compatibility of the plugin.
+If you are using a different version of Unreal Engine, you will need to recompile the plugin. Versions prior to `4.27.2` may require additional code changes. If you are working with UE `5.5` or later, use the [original plugin by the ProjectBorealis team](https://github.com/ProjectBorealis/PBCharacterMovement). This fork was created specifically for the older, but time-tested, version of the UE 4.27.2 engine.
+
+Translated with DeepL.com (free version)
 
 # Instructions
 
 1. [Download the PBCharacterMovement plugin](https://github.com/ProjectBorealis/PBCharacterMovement/archive/main.zip) and paste it into your project's `Plugins/` folder.
 2. Open your Unreal Engine project.
-3. Add Enhanced Input actions and mappings for forward, right, look up, turn, jump, and crouch. Setting these assets up properly is not covered here, but many tutorials for this exist online.
-4. Create a new player controller in Blueprint or C++. Here's a [simple Blueprint example](https://blueprintue.com/blueprint/mhk2sgn9/).
-5. Create a Blueprint child class of PBPlayerCharacter.
-6. Create a gamemode with Default Pawn set to your Blueprint character class, and Player Controller set to your player controller.
-7. Enjoy the movement!
+3. Enable Experintal Enhanced Input Plugin Support
+4. Add Enhanced Input actions and mappings for forward, right, look up, turn, jump, and crouch. Setting these assets up properly is not covered here, but many tutorials for this exist online.
+5. Create a new player controller in Blueprint or C++. Here's a [simple Blueprint example](https://blueprintue.com/blueprint/mhk2sgn9/).
+6. Create a Blueprint child class of PBPlayerCharacter.
+7. Create a gamemode with Default Pawn set to your Blueprint character class, and Player Controller set to your player controller.
+8. Enjoy the movement!
 
 ## Gravity
 
