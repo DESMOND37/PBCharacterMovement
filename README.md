@@ -30,7 +30,7 @@ If you are using a different version of Unreal Engine, you will need to recompil
 
 1. [Download the PBCharacterMovement plugin](https://github.com/DESMOND37/PBCharacterMovement_4.27.2/archive/main.zip) and paste it into your project's `Plugins/` folder.
 2. Open your Unreal Engine project.
-3. Enable Experimental Enhanced Input Plugin Support
+3. Enable Experimental Enhanced Input Plugin Support.
 4. Add Enhanced Input actions and mappings for forward, right, look up, turn, jump, and crouch. Setting these assets up properly is not covered here, but many tutorials for this exist online.
 5. Create a new player controller in Blueprint or C++. Here's a [simple Blueprint example](https://blueprintue.com/blueprint/mhk2sgn9/).
 6. Create a Blueprint child class of PBPlayerCharacter.
